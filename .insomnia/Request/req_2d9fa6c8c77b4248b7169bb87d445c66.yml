@@ -1,9 +1,9 @@
 _id: req_2d9fa6c8c77b4248b7169bb87d445c66
 type: Request
 parentId: fld_18507d500052411390dc4baee8d1ba3b
-modified: 1693395542273
+modified: 1694079437510
 created: 1692187291841
-url: https://cloudgenwan.qa.cudaops.com/api/v1/webui/1025351873/appliances/BNG/models
+url: https://./api/v1/webui/{{ _.accountID }}/appl/BNG/models
 name: "Get all Models "
 description: ""
 method: GET
