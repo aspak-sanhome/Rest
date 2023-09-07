@@ -1,0 +1,159 @@
+_id: req_2b1ab5b45b3f4071b7cff372ac585d65
+type: Request
+parentId: fld_645ba09ea7d34ed2b61c341fe235e812
+modified: 1689326743640
+created: 1689326533558
+url: https://10.17.112.10:8443/rest/cc/v1/config/ranges/1/clusters/HQ/boxes/HQ-CGF1/service-container/HQ-CGF1HQFW/firewall/objects/users/API-test
+name: userObject-Post
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "color": "#ff0000",
+      "comment": "This is my object.",
+      "entries": {
+        "add": [
+          {
+            "entry": {
+              "authenticationMethod": {
+                "box": "string",
+                "origin": "string",
+                "server": "string",
+                "service": "string"
+              },
+              "groupPatterns": {
+                "matchRule": "any",
+                "patterns": [
+                  ""
+                ]
+              },
+              "loginName": "MyUser",
+              "policyRolesPatterns": {
+                "matchRule": "any",
+                "patterns": [
+                  {
+                    "negativeMatch": true,
+                    "pattern": "string"
+                  }
+                ]
+              },
+              "vpnUserPattern": {
+                "group": "string",
+                "user": "string"
+              },
+              "x509CertificatePatterns": {
+                "altName": "string",
+                "issuer": {
+                  "commonName": "string",
+                  "country": "string",
+                  "emailAddress": "string",
+                  "location": "string",
+                  "organisation": "string",
+                  "organisationalUnit": "string"
+                },
+                "policy": "string",
+                "subject": {
+                  "commonName": "string",
+                  "country": "string",
+                  "emailAddress": "string",
+                  "location": "string",
+                  "organisation": "string",
+                  "organisationalUnit": "string"
+                }
+              }
+            },
+            "references": "MyOtherObject"
+          }
+        ],
+        "remove": [
+          "ReferencedObject",
+          "@1"
+        ],
+        "update": [
+          {
+            "entry": {
+              "authenticationMethod": {
+                "box": "string",
+                "origin": "string",
+                "server": "string",
+                "service": "string"
+              },
+              "groupPatterns": {
+                "matchRule": "any",
+                "patterns": {
+                  "add": [
+                    ""
+                  ],
+                  "remove": [
+                    ""
+                  ]
+                }
+              },
+              "loginName": "MyUser",
+              "policyRolesPatterns": {
+                "matchRule": "any",
+                "patterns": {
+                  "add": [
+                    {
+                      "negativeMatch": true,
+                      "pattern": "string"
+                    }
+                  ],
+                  "remove": [
+                    ""
+                  ]
+                }
+              },
+              "vpnUserPattern": {
+                "group": "string",
+                "user": "string"
+              },
+              "x509CertificatePatterns": {
+                "altName": "string",
+                "issuer": {
+                  "commonName": "string",
+                  "country": "string",
+                  "emailAddress": "string",
+                  "location": "string",
+                  "organisation": "string",
+                  "organisationalUnit": "string"
+                },
+                "policy": "string",
+                "subject": {
+                  "commonName": "string",
+                  "country": "string",
+                  "emailAddress": "string",
+                  "location": "string",
+                  "organisation": "string",
+                  "organisationalUnit": "string"
+                }
+              }
+            },
+            "id": "@1",
+            "references": "MyOtherObject"
+          }
+        ]
+      },
+      "name": "MyObject"
+    }
+    Responses
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1687684267581.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

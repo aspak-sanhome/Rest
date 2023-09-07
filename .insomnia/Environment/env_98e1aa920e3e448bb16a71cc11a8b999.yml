@@ -1,0 +1,18 @@
+_id: env_98e1aa920e3e448bb16a71cc11a8b999
+type: Environment
+parentId: env_c81b68d278a4adda0f36e60523028b2e26b5fe5a
+modified: 1693395191158
+created: 1686043483211
+name: ZTD_API
+data:
+  accountID: "11047166"
+  deviceID: "30671"
+  CLOUD_AT: AT-c856eab428f11ac87fac355cb4e067ab07847cc9-58c1e3e5e97739d616b115be25d96726
+dataPropertyOrder:
+  "&":
+    - accountID
+    - deviceID
+    - CLOUD_AT
+color: "#e30d0d"
+isPrivate: false
+metaSortKey: 1686043483211

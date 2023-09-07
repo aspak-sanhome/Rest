@@ -1,0 +1,26 @@
+_id: req_0cdbde66c08a46a48b408ddf90e8f583
+type: Request
+parentId: fld_8a4ca762204b4b919c8991171ebfba42
+modified: 1681227328183
+created: 1681227293814
+url: https://conftemplatecc.westeurope.cloudapp.azure.com:8443/rest/cc/v1/ranges/1/clusters/IIoT-Devices/boxes/SC25/zerotouch/configurations
+name: Delete-ZTD
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: Sysint1!-Demo
+metaSortKey: -1680642967976.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_68f42389a7f248299b3b8256ab3e0008
+type: Request
+parentId: fld_8a4ca762204b4b919c8991171ebfba42
+modified: 1681227136888
+created: 1681227053449
+url: https://conftemplatecc.westeurope.cloudapp.azure.com:8443/rest/cc/v1/ranges/1/clusters/IIoT-Devices/boxes/SC25/zerotouch/configurations?serial=1920388
+name: Show-ZTD
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: Sysint1!-Demo
+metaSortKey: -1680642968026.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

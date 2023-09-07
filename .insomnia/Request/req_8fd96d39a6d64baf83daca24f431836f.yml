@@ -1,0 +1,26 @@
+_id: req_8fd96d39a6d64baf83daca24f431836f
+type: Request
+parentId: fld_645ba09ea7d34ed2b61c341fe235e812
+modified: 1685603546085
+created: 1685603536148
+url: https://10.17.112.10:8443/rest/cc/v1/zerotouch/configurations
+name: ShowZTD
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1680642967876.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

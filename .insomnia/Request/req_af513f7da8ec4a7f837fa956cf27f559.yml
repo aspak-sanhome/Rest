@@ -1,0 +1,74 @@
+_id: req_af513f7da8ec4a7f837fa956cf27f559
+type: Request
+parentId: fld_18507d500052411390dc4baee8d1ba3b
+modified: 1693395721898
+created: 1693327006251
+url: https://cloudgenwan.qa.cudaops.com/api/v1/webui/1025351873/zerotrust/policies/1790
+name: ADD-to-Policy-Testing
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "accessCriteria": {
+        "groups": [
+         "2e05728b-ccef-4ca3-bd19-bb0bf5f5c0cb"
+        ],
+    		"users": [],
+        "securityInspection": true,
+        "securityPosture": "enforceCompliance"
+      },
+      "created": "2016-08-03T10:15:30+01:00",
+      "createdUsername": "user@barracuda.com",
+      "description": "Remote access policy API update",
+      "deviceCriteria": {
+        "minimumClientVersion": null,
+        "minimumOperatingSystemVersions": {
+          "android": null,
+          "iOS": null,
+          "macOS": null,
+          "windows": null
+        },
+        "requireAntivirus": true,
+        "requireDiskEncryption": true,
+        "requireFirewall": false,
+        "requireNotJailbroken": true,
+        "requireScreenLock": true
+      },
+    	"id": 1790,
+      "name": "ZTNA-Alpbach",
+      "order": 1,
+      "resourceCriteria": {
+        "applications": [
+          "800000",
+          "800001"
+        ],
+        "type": "internal"
+      },
+      "updated": "2019-02-26T10:13:30+01:00",
+      "updatedUsername": "user@barracuda.com",
+      "virtualWanId": 6037
+    }
+parameters: []
+headers:
+  - id: pair_a4d48d2c5f884db997b528fdf91bac8e
+    name: Cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }};
+    description: ""
+  - id: pair_a3c035f7d67049e283297da5559127f0
+    name: accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_bdc6f2d3fc1841b4aa8c6d1a2afc3799
+authentication: {}
+metaSortKey: -1689358431651.0547
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

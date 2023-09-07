@@ -1,0 +1,52 @@
+_id: req_062f383a70bb4fdf9ad009b4e75fde12
+type: Request
+parentId: fld_18507d500052411390dc4baee8d1ba3b
+modified: 1693833963398
+created: 1693312996970
+url: https://cloudgenwan.qa.cudaops.com/api/v1/webui/1025351873/secureedgeconnector
+name: ADD SD-WAN Connector
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "configurationType": "gateway",
+    	"configurationUuid": "910073fa-f6dc-4780-a4fa-7aa514ba0bc5",
+      "created": "2016-08-03T10:15:30+01:00",
+      "name": "AlpbachAPI",
+      "resources": [
+        {
+
+          "createdUsername": "anton@secureyouuredge.com",
+          "hostname": "api.me",
+          "internalIp": "172.23.0.3",
+          "serviceName": "DockerComposeWebapp",
+          "updated": "2019-02-26T10:13:30+01:00",
+          "updatedUsername": "anton@secureyouuredge.com"
+        }
+      ],
+      "virtualWanId": 6037
+    }
+parameters: []
+headers:
+  - id: pair_a4d48d2c5f884db997b528fdf91bac8e
+    name: Cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }};
+    description: ""
+  - id: pair_a3c035f7d67049e283297da5559127f0
+    name: accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_45918d87eb1a4759b2db26bd338b069f
+authentication: {}
+metaSortKey: -1689459558741.2188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

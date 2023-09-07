@@ -1,0 +1,34 @@
+_id: req_efe84437c27946dcadc98df73d21236a
+type: Request
+parentId: fld_18507d500052411390dc4baee8d1ba3b
+modified: 1693395622270
+created: 1693315452645
+url: https://cloudgenwan.qa.cudaops.com/api/v1/webui/1025351873/gateways
+name: Get EDGEServicesUUID
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "0"
+    disabled: false
+  - name: size
+    value: "25"
+    disabled: false
+headers:
+  - name: accept
+    value: application/json
+    id: pair_42aa7f9abb5f4b61887eb467bc8b9fca
+  - id: pair_bb4cc084afc94b488ec833088e90d92b
+    name: Cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }};
+    description: ""
+authentication: {}
+metaSortKey: -1689796649041.7656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

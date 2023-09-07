@@ -1,0 +1,18 @@
+_id: env_0a4902c240aa468d97a1234f1fbfb86b
+type: Environment
+parentId: env_c81b68d278a4adda0f36e60523028b2e26b5fe5a
+modified: 1693832536798
+created: 1693379604840
+name: SecurEdge Enviroment
+data:
+  accountID: "1025351873"
+  vWANid: "6037"
+  CLOUD_AT: AT-c78b2873d867cfb3e1580e1b1f60dce325049cd0-45cadd84a9563b2dda71edcd97654cc8
+dataPropertyOrder:
+  "&":
+    - accountID
+    - vWANid
+    - CLOUD_AT
+color: "#0d38e3"
+isPrivate: false
+metaSortKey: 1693379604840

@@ -1,0 +1,29 @@
+_id: req_53735dbb79dd445c883e6dc59ab1f7d6
+type: Request
+parentId: fld_18507d500052411390dc4baee8d1ba3b
+modified: 1693395556534
+created: 1693312053432
+url: https://cloudgenwan.qa.cudaops.com/api/v1/webui/1025351873/zerotrust/policies
+name: Get ZTNA Policy
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a4d48d2c5f884db997b528fdf91bac8e
+    name: Cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }};
+    description: ""
+  - id: pair_a3c035f7d67049e283297da5559127f0
+    name: accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1690403411582.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
