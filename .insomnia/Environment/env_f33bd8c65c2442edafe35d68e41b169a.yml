@@ -1,0 +1,20 @@
+_id: env_f33bd8c65c2442edafe35d68e41b169a
+type: Environment
+parentId: env_c81b68d278a4adda0f36e60523028b2e26b5fe5a
+modified: 1694079615262
+created: 1694078996610
+name: SecurEdge QA
+data:
+  host: cloudgenwan.qa.cudaops.com
+  accountID: "11091465"
+  vWANid: "6037"
+  CLOUD_AT: AT-90e1e84a465864fcf636c32d52ea8f18e19ff2b1-24966b46f72e89b2e8ee67b03bb57fee
+dataPropertyOrder:
+  "&":
+    - host
+    - accountID
+    - vWANid
+    - CLOUD_AT
+color: "#e3940d"
+isPrivate: false
+metaSortKey: 1693379604890
