@@ -1,0 +1,30 @@
+_id: req_306a8b1b196f4b5db4a500b8bfb0ffe9
+type: Request
+parentId: fld_18507d500052411390dc4baee8d1ba3b
+modified: 1694079700331
+created: 1693312453121
+url: https://{{ _.host }}/api/v1/webui/{{ _.accountID
+  }}/applications?page=0&size=600
+name: Get Apps
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a4d48d2c5f884db997b528fdf91bac8e
+    name: Cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }};
+    description: ""
+  - id: pair_a3c035f7d67049e283297da5559127f0
+    name: accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1689864067101.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

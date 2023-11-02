@@ -1,0 +1,30 @@
+_id: req_89634ca2278d4435bfe46976c8a2a69e
+type: Request
+parentId: fld_38b6ca39fbd9489384a5e5d2d1ec06bf
+modified: 1686045660941
+created: 1686043812542
+url: https://ztd.barracudanetworks.com/api/v1/webui/{{ _.accountID
+  }}/appliances/{{ _.deviceID }}
+name: DeleteBox
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_25a19fd4744c488bacaaee369c1c3478
+    name: accept
+    value: application/json
+    description: ""
+  - id: pair_770ae6b1ae464660b65b96a393e4804c
+    name: cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }}
+    description: ""
+authentication: {}
+metaSortKey: -1686043812542
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

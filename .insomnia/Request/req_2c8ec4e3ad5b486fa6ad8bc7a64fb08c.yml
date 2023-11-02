@@ -1,0 +1,35 @@
+_id: req_2c8ec4e3ad5b486fa6ad8bc7a64fb08c
+type: Request
+parentId: fld_0e67c416cdc34522af88a7bec0e93598
+modified: 1693295689229
+created: 1693294983129
+url: https://10.17.112.77:8443/rest/firewall/v1/forwarding-firewall/rules/dynamic/MaintanceAccess-KUKA1
+name: "Activate Dynamic Rule "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "action": "disable",
+      "expiresIn": 0,
+      "expireAction": "disable"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1693294983129
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

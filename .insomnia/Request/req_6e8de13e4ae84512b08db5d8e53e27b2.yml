@@ -1,0 +1,26 @@
+_id: req_6e8de13e4ae84512b08db5d8e53e27b2
+type: Request
+parentId: wrk_c18d6035149f421796e00ea73597444b
+modified: 1685603728345
+created: 1685603675170
+url: https:/10.17.112.10:8443/rest/cc/v1/ranges/1/clusters/IIoTDevices/boxes/DemoZTD/configevents/enableBox
+name: ActivateSC
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: Sysint1!-Demo
+metaSortKey: -1684508343801.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

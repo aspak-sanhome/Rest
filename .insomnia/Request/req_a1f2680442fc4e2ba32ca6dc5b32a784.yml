@@ -1,0 +1,26 @@
+_id: req_a1f2680442fc4e2ba32ca6dc5b32a784
+type: Request
+parentId: fld_645ba09ea7d34ed2b61c341fe235e812
+modified: 1691522575373
+created: 1685603747293
+url: http://localhost:3333/out1/1
+name: AddSC
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1680642967776.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
