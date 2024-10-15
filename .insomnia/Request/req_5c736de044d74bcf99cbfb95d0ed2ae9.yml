@@ -1,0 +1,1161 @@
+_id: req_5c736de044d74bcf99cbfb95d0ed2ae9
+type: Request
+parentId: fld_18507d500052411390dc4baee8d1ba3b
+modified: 1727687887884
+created: 1727190981316
+url: https://{{ _.host }}/api/v1/webui/{{ _.accountID }}/applications/custom
+name: Add-Apps
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"createdUsername": "ap@pmcuda.com",
+    	"created": "2024-04-10T12:50:12Z",
+    	"updatedUsername": "ap@pmcuda.com",
+    	"updated": "2024-04-10T12:50:12Z",
+    	"name": "M365-CA",
+    	"description": "Conditional Access M365",
+    	"type": "web",
+    	"destinations": [
+        {
+          "protocol": null,
+          "destination": "security.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.usercontent.microsoft",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.microsoftstream.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.mail.protection.outlook.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.sharepointonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.azureedge.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.media.azure.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "logincert.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.outlook.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "officeclient.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.sway.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.flow.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.users.storage.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.office.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.o365weve.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.office365.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ocspx.digicert.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "auth.gfx.ms",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "aka.ms",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "teams.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.omniroot.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ssw.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.appex.bing.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "staffhub.ms",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ocsp.msocsp.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "o15.officeredir.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "cacerts.digicert.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "officespeech.platform.bing.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "login.windows.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "device.login.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "clientconfig.microsoftonline-p.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "office15client.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "telemetryservice.firstpartyapps.oaspapps.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "oneclient.sfx.ms",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "loginex.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.teams.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.msauthimages.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.portal.cloudappsecurity.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "g.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "informationprotection.hosting.portal.azure.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "firstpartyapps.oaspapps.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "prod.firstpartyapps.oaspapps.com.akadns.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.activity.windows.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ccs.login.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "secure.globalsign.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.powerapps.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "outlook.office.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "otelrules.azureedge.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.microsoft365.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "login.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "login.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.skype.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.outlookmobile.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.acompli.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "signup.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.digicert.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.powerautomate.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "login.microsoftonline-p.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.hip.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.compliance.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "tse1.mm.bing.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "login.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "adminwebservice.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.informationprotection.azure.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "eus-www.sway-extensions.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ocos-office365-s2s.msedge.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "appsforoffice.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "c.bing.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.streaming.mediaservices.windows.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "docs.live.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "compass-ssl.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.msftauthimages.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.msauth.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "technet.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.msftidentity.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.azure-apim.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "partnerservices.getmicrosoftkey.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.online.office.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.entrust.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.yammerusercontent.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.wns.windows.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "sway.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.onenote.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ecn.dev.virtualearth.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "dgps.support.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.protection.office.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "apis.live.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.lync.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.microsoftonline-p.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "support.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.outlook.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "office.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.azurerms.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.protection.outlook.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "login.windows-ppe.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.onmicrosoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "passwordreset.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "companymanager.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "enterpriseregistration.windows.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "storage.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "officepreviewredir.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.microsoftusercontent.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "amp.azure.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*cdn.onenote.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "mem.gfx.ms",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "isrg.trustid.ocsp.identrust.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.symcd.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.events.data.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.sharepoint.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "spoprod-a.akamaihd.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "compliance.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.aria.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "officeredir.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "protection.office.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "nps.onyx.azure.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "outlook.office365.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.onedrive.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "wus-firstpartyapps.oaspapps.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "graph.windows.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.mx.microsoft",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "graph.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.security.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "admin.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "d.docs.live.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "nexus.microsoftonline-p.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.geotrust.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.officeapps.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "officeapps.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "cert.int-x3.letsencrypt.org",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "login-us.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "c.bing.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "provisioningapi.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ocsp.globalsign.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "adl.windows.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.public-trust.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.verisign.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.search.production.us.trafficmanager.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.svc.ms",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.phonefactor.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.secure.skypeassets.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "c.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.assets-yammer.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "activity.windows.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.blob.core.windows.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.msftauth.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.auth.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "r.office.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "go.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.cloud.microsoft",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.search.production.emea.trafficmanager.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.search.production.apac.trafficmanager.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.virtualearth.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "admin.onedrive.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "defender.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "www.bing.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "apps.identrust.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "ocsp2.globalsign.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "smtp.office365.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.msidentity.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.office.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.keydelivery.mediaservices.windows.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.yammer.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "policykeyservice.dc.ad.msft.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "becws.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.aadrm.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.appex-rf.msn.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "dc.services.visualstudio.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "assets.onestore.ms",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "activation.sls.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "account.live.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "autodiscover.*.onmicrosoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "accounts.accesscontrol.windows.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "autologon.microsoftazuread-sso.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.symcb.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.static.microsoft",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "docs.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "account.activedirectory.windowsazure.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.acompli.net",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "wus-www.sway-extensions.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "*.cortana.ai",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "c1.microsoft.com",
+          "firstPort": null,
+          "lastPort": null
+        },
+        {
+          "protocol": null,
+          "destination": "api.passwordreset.microsoftonline.com",
+          "firstPort": null,
+          "lastPort": null
+        }
+    	],
+    	"categoryId": "webtraffic",
+    	"virtualWanId": 293
+    }
+parameters:
+  - name: page
+    value: "0"
+    disabled: false
+  - name: size
+    value: "25"
+    disabled: false
+headers:
+  - name: accept
+    value: application/json
+    id: pair_42aa7f9abb5f4b61887eb467bc8b9fca
+  - id: pair_bb4cc084afc94b488ec833088e90d92b
+    name: Cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }};
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689670240179.0605
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

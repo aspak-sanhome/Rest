@@ -1,0 +1,20 @@
+_id: env_de49b9503041479e8d80cbdf7a3e4311
+type: Environment
+parentId: env_c81b68d278a4adda0f36e60523028b2e26b5fe5a
+modified: 1727094944020
+created: 1718058461810
+name: CGF-PMLAB
+data:
+  CC_IP: 10.17.112.10
+  Box: API-Demo
+  Cluster: 90Cluster-Test
+  Range: "99"
+dataPropertyOrder:
+  "&":
+    - CC_IP
+    - Box
+    - Cluster
+    - Range
+color: "#48eac9"
+isPrivate: false
+metaSortKey: 1704804851797

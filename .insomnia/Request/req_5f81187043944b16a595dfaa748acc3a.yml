@@ -1,0 +1,27 @@
+_id: req_5f81187043944b16a595dfaa748acc3a
+type: Request
+parentId: fld_c772c3271b65465e9bf431973a215802
+modified: 1718189825984
+created: 1718059599934
+url: https://10.17.112.10:8443/rest/cc/v1/ranges/{{ _.Range }}/clusters/{{
+  _.Cluster }}/conftemplates/TiGital
+name: TiGital
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1718059599934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

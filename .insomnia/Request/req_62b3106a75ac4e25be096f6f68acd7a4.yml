@@ -1,0 +1,30 @@
+_id: req_62b3106a75ac4e25be096f6f68acd7a4
+type: Request
+parentId: fld_9666d370f9f54b3e8031015ce7003627
+modified: 1727081720351
+created: 1727081646940
+url: https://{{ _.CC_IP }}:8443/rest/cc/v1/statusmap
+name: StatusMap
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4fe823152db1430c9fc07c240ee9b7a5
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1687834856227.704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

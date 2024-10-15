@@ -1,0 +1,32 @@
+_id: req_2630354794644699a8a5aa837673823b
+type: Request
+parentId: fld_9666d370f9f54b3e8031015ce7003627
+modified: 1710764392831
+created: 1710762423353
+url: https://{{ _.CC_IP }}:8443/rest/cc/v1/config/ranges/{{ _.Range
+  }}/clusters/{{ _.Cluster
+  }}/services/USDBFW/shared-firewall/objects/networks/bmw.de
+name: NWObject-cfirewall
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_4fe823152db1430c9fc07c240ee9b7a5
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1687826846193.3315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

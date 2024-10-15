@@ -1,0 +1,30 @@
+_id: req_588ae0acff5d4fe28c65504c5813b271
+type: Request
+parentId: fld_18507d500052411390dc4baee8d1ba3b
+modified: 1695633560709
+created: 1695632288412
+url: https://{{ _.host }}/api/v1/webui/{{ _.accountID
+  }}/sites/secureconnector/configuration/1298
+name: SC-connector-getconfig
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a4d48d2c5f884db997b528fdf91bac8e
+    name: Cookie
+    value: CLOUD_AT={{ _.CLOUD_AT }}; current_account={{ _.accountID }};
+    description: ""
+  - id: pair_a3c035f7d67049e283297da5559127f0
+    name: accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1690673083823.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

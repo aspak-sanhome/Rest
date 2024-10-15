@@ -1,0 +1,26 @@
+_id: req_1f039092a6024326852665b2583435da
+type: Request
+parentId: fld_9666d370f9f54b3e8031015ce7003627
+modified: 1727095232738
+created: 1727094804087
+url: http://10.17.112.10:8080/rest/cc/v1/config/ranges/99/clusters/90Cluster-Test/boxes/API-Demo/network/route/v4/IPV401
+name: FW-SharedNW
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1687834906290.419
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

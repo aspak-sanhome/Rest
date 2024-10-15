@@ -1,0 +1,22 @@
+_id: env_86a24d217c64423fb634d821bdd0b410
+type: Environment
+parentId: env_c81b68d278a4adda0f36e60523028b2e26b5fe5a
+modified: 1710343556752
+created: 1699266165494
+name: CGF-CC
+data:
+  CC_IP: 10.17.112.135
+  BoxDest: Boston
+  Box: Boston
+  Cluster: Americas
+  Range: "1"
+dataPropertyOrder:
+  "&":
+    - CC_IP
+    - BoxDest
+    - Box
+    - Cluster
+    - Range
+color: "#bfea48"
+isPrivate: false
+metaSortKey: 1699266165494

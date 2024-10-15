@@ -1,0 +1,26 @@
+_id: req_6874116d0ebc40cea6f388666c80de14
+type: Request
+parentId: fld_645ba09ea7d34ed2b61c341fe235e812
+modified: 1727090040637
+created: 1699266035224
+url: http://10.17.112.10:8080/rest/cc/v1/config/ranges/1/clusters/HQ/boxes/HQ-CGF1/service-container/HQ-CGF1HQFW/firewall/rules/
+name: RuleList
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1687786796021.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

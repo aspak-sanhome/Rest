@@ -1,0 +1,22 @@
+_id: env_60c0b6b5beb04326990f8115fc85dc1f
+type: Environment
+parentId: env_c81b68d278a4adda0f36e60523028b2e26b5fe5a
+modified: 1725544063240
+created: 1710343538100
+name: B&R
+data:
+  CC_IP: 10.17.112.135
+  BoxDest: Boston
+  Box: Boston
+  Cluster: Americas
+  Range: "1"
+dataPropertyOrder:
+  "&":
+    - CC_IP
+    - BoxDest
+    - Box
+    - Cluster
+    - Range
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1710343538100

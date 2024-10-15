@@ -1,0 +1,26 @@
+_id: req_08d9640e55d44c3c8bede26bc5b8484a
+type: Request
+parentId: fld_645ba09ea7d34ed2b61c341fe235e812
+modified: 1695039550124
+created: 1695039550124
+url: https://10.17.112.10:8443/rest/cc/v1/config/ranges/1/clusters/HQ/boxes/HQ-CGF1/service-container/HQ-CGF1HQFW/firewall/objects/users/API-test
+name: nwObject
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: root
+  password: a
+metaSortKey: -1688504495101.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
