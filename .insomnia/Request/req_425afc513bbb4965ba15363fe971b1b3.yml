@@ -1,9 +1,9 @@
 _id: req_425afc513bbb4965ba15363fe971b1b3
 type: Request
 parentId: fld_645ba09ea7d34ed2b61c341fe235e812
-modified: 1685635285951
+modified: 1718059517503
 created: 1685604339150
-url: https://10.17.112.10:8443/rest/cc/v1/ranges/4/clusters/IIotDevices/conftemplates/Simple
+url: https://10.17.112.10:8443/rest/cc/v1/ranges/4/clusters/IIotDevices/conftemplates
 name: ShowTemplates
 description: ""
 method: GET

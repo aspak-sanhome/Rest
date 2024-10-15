@@ -1,15 +1,31 @@
 _id: req_a1f2680442fc4e2ba32ca6dc5b32a784
 type: Request
 parentId: fld_645ba09ea7d34ed2b61c341fe235e812
-modified: 1691522575373
+modified: 1714026021152
 created: 1685603747293
-url: http://localhost:3333/out1/1
+url: https://10.17.112.10:8443/rest/cc/v1/ranges/4/clusters/IIotDevices/boxes
 name: AddSC
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "name": "DemoZTD1",
+      "confTemplateBinding": "STRONG",
+      "confTemplate": "Simple",
+      "boxModel": "fsc2.1",
+      "confTemplateParameters": [
+        {
+          "name": "rootpwd",
+          "secureStringValue": "demo"
+        }
+      ]
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication:
   type: basic
   useISO88591: false

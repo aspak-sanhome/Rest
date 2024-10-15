@@ -1,10 +1,11 @@
 _id: req_b0008a193caa451d827df5c37d21fdc1
 type: Request
-parentId: fld_8a4ca762204b4b919c8991171ebfba42
-modified: 1681226240675
+parentId: fld_c772c3271b65465e9bf431973a215802
+modified: 1718086858483
 created: 1681225961513
-url: https://conftemplatecc.westeurope.cloudapp.azure.com:8443/rest/cc/v1/ranges/1/clusters/IIoT-Devices/boxes/SC25/configevents/enableBox
-name: ActivateSC
+url: https://{{ _.CC_IP }}:8443/rest/cc/v1/ranges/{{ _.Range }}/clusters/{{
+  _.Cluster }}/conftemplates/TiGital/configevents/enableBox
+name: ActivateCGF
 description: ""
 method: POST
 body: {}
@@ -15,8 +16,8 @@ authentication:
   useISO88591: false
   disabled: false
   username: root
-  password: Sysint1!-Demo
-metaSortKey: -1681225961513
+  password: a
+metaSortKey: -1718059599784
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
